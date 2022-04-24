@@ -11,7 +11,7 @@
 <body>
     <header id="header">
         <div id="title">
-            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="trombones logo">
+            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="trombones logo" id="header-img">
         </div>
             <nav id="nav-bar">
                 <a href="#materials" class="nav-link">Features</a>
@@ -22,62 +22,92 @@
     <h1>Handcrafted, home-made masterpices</h1>
     <form action="https://www.freecodecamp.com/email-submit" id="form">
         <label for="email"></label>
-        <input type="email" id="email" placeholder="Enter your email address"><br>
+        <input type="email" id="email" placeholder="Enter your email address" name="email"><br>
         
         <label for="submit"></label>
-        <input type="submit" id="submit" value="GET STARTED">
+        <input type="submit" id="submit" value="GET STARTED" name="email">
     </form>
+
     <article id="materials">
         <i class="fa-regular fa-gem"></i>
-        <h3>Premium Materials</h3>
-        <p>Our trombones use the shiniest brass which is courced locally. This will increase the longevity of your purchase.</p>
+        <div id="materials-flex">
+            <h3>Premium Materials</h3>
+            <p>Our trombones use the shiniest brass which is courced locally. This will increase the longevity of your purchase.</p>
+        </div>
     </article>
 
     <article id="shipping">
         <i class="fa-solid fa-truck-fast"></i>
-        <h3>Fast Shipping</h3>
-        <p>We make sure your recieve your trombone as soon as have finished making it. We also provide free returns if you are not saticfied</p>
+        <div id="shipping-flex">
+            <h3>Fast Shipping</h3>
+            <p>We make sure your recieve your trombone as soon as have finished making it. We also provide free returns if you are not saticfied</p>
+        </div>
     </article>
 
     <article id="quality">
         <i class="fa-solid fa-thumbs-up"></i>
-        <h3>Quality Assurance</h3>
-        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+        <div id="quality-flex">
+            <h3>Quality Assurance</h3>
+            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+        </div>
     </article>
 
-    <figure id="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <figure id="video-figure">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" id="video" allowfullscreen></iframe>
     </figure>
     <div id="price">
         <div id="tenor">
-            <h4>TENOR TROMBONE</h4><br>
-            <strong>$600</strong><br>
-            Lorem ipsum.<br>
-            Lorex imsum.<br>
-            Lorem ipsum dolor.<br>
-            LOrem ipsum.<br>
+            <h4>TENOR TROMBONE</h4>
+            <ul>
+                <div id="howmuch-tenor">
+                    <li><strong>$600</strong></li>
+                </div>
+                <li>Lorem ipsum.</li><br>
+                <li>Lorex imsum.</li><br>
+                <li>Lorem ipsum dolor.</li><br>
+                <li>Lorem ipsum.</li><br>
+            </ul>
+            <label for="select-tenor">
+                <input type="submit" id="select-tenor" value="SELECT">
+            </label>
         </div>
         <div id="bass">
             <h4>BASS TROMBONE</h4>
-            <strong>$900</strong>
-            Lorem ipsum.<br>
-            Lorem ipsum.<br>
-            Lorem ipsum dolor.<br>
-            Lorem ipsum.<br>
-            
+            <ul>
+                    <div id="howmuch-bass">
+                        <li><strong>$900</strong></li>
+                    </div>
+                    <li>Lorem ipsum.</li><br>
+                    <li>Lorem ipsum.</li><br>
+                    <li>Lorem ipsum dolor.</li><br>
+                    <li>Lorem ipsum.</li><br>
+                </ul>
+            <label for="select-bass">
+                <input type="submit" id="select-bass" value="SELECT">
+            </label>
         </div>
         <div id="valve">
             <h4>VALVE TROMBONE</h4>
-            Plays similar to a Trumpetbr<br>
-            great for Jazz Bands<br>
-            Lorem ipsum dolor.<br>
-            Lorem ipsum.<br>
+            <ul>
+                <div id="howmuch-valve">
+                    <li><strong>$1200</strong></li>
+                </div>
+                    <li>Plays similar to a Trumpetbr</li><br>
+                    <li>great for Jazz Bands</li><br>
+                    <li>Lorem ipsum dolor.</li><br>
+                    <li>Lorem ipsum.</li><br>
+            </ul>
+            <label for="select-valve">
+                <input type="submit" id="select-valve" value="SELECT">
+            </label>
         </div>
     </div>
     <footer id="footer">
-        <div id="privacy">Privacy</div>
-        <div id="terms">Terms</div>
-        <div id="contact">Contact</div>
+        <div id="information">
+            <div id="privacy">Privacy</div>
+            <div id="terms">Terms</div>
+            <div id="contact">Contact</div>
+        </div>
         <div id="copyright">Copyright 2016, Original Trombones</div>
     </footer>
 </body>

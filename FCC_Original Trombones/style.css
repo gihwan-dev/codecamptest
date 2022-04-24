@@ -5,17 +5,19 @@
   align-items: center;
   padding-top: 15px;
   background-color: #eee;
+  padding-top: 15px;
 }
 
 body {
   background-color: #eee;
+  margin: 0;
 }
 
 #title{
-  margin-right: 20vw;
+  margin-right: 15vw;
 }
 
-#title img {
+#header-img {
   max-width: 400px;
   width: 100%;
   height: 100%;
@@ -25,7 +27,7 @@ body {
 #nav-bar a {
   text-decoration: none;
   color: black;
-  padding-left: 50px;
+  padding-left: 3vw;
   padding-right: auto;
   font-size: 20px ;
 }
@@ -34,6 +36,8 @@ h1 {
   padding-top: 10%;
   text-align: center;
   font-weight: lighter;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 #form {
@@ -47,11 +51,268 @@ h1 {
 }
 
 #submit {
-width: 180px;
-height: 35px;
-background-color: rgb(255, 204, 75);
-font-weight: 1000;
-font-size: large;
-border: none;
+  width: 180px;
+  height: 35px;
+  background-color: rgb(255, 204, 75);
+  font-weight: 1000;
+  font-size: large;
+  border: none;
+  margin-bottom: 80px;
 }
 
+#materials {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+#materials i {
+  font-size: 60px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+#materials h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+#materials p {
+  max-width: 700px;
+  font-size: 17px;
+  margin: 0;
+}
+
+#shipping {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+#shipping i {
+  width: 60px;
+  font-size: 60px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+#shipping h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+#shipping p {
+  max-width: 700px;
+  font-size: 17px;
+  margin: 0;
+}
+
+#quality {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+#quality i {
+  font-size: 60px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+#quality h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+#quality p {
+  max-width: 700px;
+  font-size: 17px;
+  margin: 0;
+}
+
+#price {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#tenor {
+  text-align: center;
+  border: 1px solid;
+}
+
+#tenor h4 {
+  background-color: bisque;
+  padding: 15px 70px;
+  margin: 0;
+}
+
+#tenor ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#howmuch-tenor {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+#select-tenor {
+  background-color: rgb(250, 199, 33);
+  border: none;
+  width: 90px;
+  height: 30px;
+  border-radius: 1px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#bass {
+  text-align: center;
+  border: 1px solid;
+}
+
+#bass h4 {
+  background-color: bisque;
+  padding: 15px 70px;
+  margin: 0;
+}
+
+#bass ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#howmuch-bass {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+#select-bass {
+  background-color: rgb(250, 199, 33);
+  border: none;
+  width: 90px;
+  height: 30px;
+  border-radius: 1px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#valve {
+  text-align: center;
+  border: 1px solid;
+}
+
+#valve h4 {
+  background-color: bisque;
+  padding: 15px 70px;
+  margin: 0;
+}
+
+#valve ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#howmuch-valve {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+#select-valve {
+  background-color: rgb(250, 199, 33);
+  border: none;
+  width: 90px;
+  height: 30px;
+  border-radius: 1px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#video-figure {
+  display: flex;
+  justify-content: center;
+}
+
+#footer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+}
+
+#information {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#privacy {
+  margin-right: 10px;
+}
+
+#terms {
+  margin-right: 10px;
+}
+
+#contact {
+  margin-right: 15px;
+}
+
+#copyright {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  color: rgb(92, 90, 90);
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+
+@media (max-width: 900px) {
+  #header {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 15px;
+    width: 100%;
+  }
+
+  #nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h1 {
+    padding-top: 150px;
+  }
+
+  #price {
+    display: flex;
+    flex-direction: column;
+    margin-left:30%;
+    margin-right: 30%;
+  }
+
+  #tenor {
+    margin-bottom: 10px;
+  }
+
+  #bass {
+    margin-bottom: 10px;
+  }
+}
