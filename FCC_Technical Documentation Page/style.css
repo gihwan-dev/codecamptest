@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+#main-doc {
+  height: 100%;
+}
+
+#main-list {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  border-right: 2px solid rgb(62, 68, 54);
+  height: 100%;
+}
+
+#nav-bar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: rgb(57, 57, 57);
+  font-size: 20px;
+}
+
+#navbar li {
+  border-top: 1px solid;
+  padding: 10px 30px;
+}
+
+#main-list h1 {
+  padding: 0px 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.main-section {
+  margin-left: 37%
+}
+
+.main-section h2 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.main-section p {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main-section ul {
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.main-section li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main-section code {
+  display: block;
+  white-space: normal;
+  margin-left: 40px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(246, 240, 226);
+}
+
+@media (max-width: 900px) {
+  #main-list {
+    display: block;
+    width: 100%;
+    position: unset;
+  }
+
+  #navbar {
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+    border: 1px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+
+  #main-list h1 {
+    text-align: center;
+  }
+
+  .main-section {
+    margin-left: 5%;
+  }
+}
