@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 70px;
+  background-color: rgb(208, 51, 51);
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 25px;
+  font-family: monospace;
+}
+
+#space {
+  height: 70px;
+  width: 100%;
+}
+
+#grid-welcome h1 {
+  margin: 0;
+  color: white;
+  font-size: 55px;
+}
+
+#grid {
+  display: grid;
+  grid-template-rows: 850px auto 850px;
+}
+
+#grid-welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(42, 41, 43)
+}
+
+#grid-welcome p {
+  color: rgb(208, 51, 51);
+  font-size: 35px;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#grid-projects {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(64, 64, 125);
+}
+
+#grid-projects h2 {
+  text-align: center;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  font-size: 40px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+#projects-img img {
+  width: 400px;
+  height: 400px;
+}
+
+#projects-img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 40px;
+}
+
+#projects-img p {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#projects-img a {
+  background-color: rgb(42, 41, 43);
+  text-decoration: none;
+}
+
+#show-all {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#show-all a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  height: fit-content;
+  background-color: rgb(42, 41, 43);
+  padding: 10px 20px;
+  border-radius: 2px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#grid-contact {
+  background-color: rgb(42, 41, 43);
+}
