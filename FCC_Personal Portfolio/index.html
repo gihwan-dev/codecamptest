@@ -5,13 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/9d3fbcc971.js" crossorigin="anonymous"></script>
   <title>Personal Portfolio</title>
 </head>
 <body>
     <div id="navbar">
-        <a href="">About</a>
-        <a href="">Work</a>
-        <a href="">Contact</a>
+        <nav>
+          <a href="#grid-welcome">About</a>
+          <a href="#projects-img">Work</a>
+          <a href="#descreptions">Contact</a>
+        </nav>
     </div>
 
     <div id="space">
@@ -30,43 +33,91 @@
         <div id="projects-img">
           <a href="">
             <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="Trubute Page">
-            <p>Tribute Page</p>
+            <p class="none-hover">Tribute Page</p>
+            <p class="hover"><strong><</strong>Tribute Page<strong>/></strong></p>
           </a>
 
           <a href="">
             <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="Random Quote Machine">
-            <p>Random Quote Machine</p>
+            <p class="none-hover">Random Quote Machine</p>
+            <p class="hover"><strong><</strong>Random Quote Machine<strong>/></strong></p>
           </a>
 
           <a href="">
             <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="JavaScript Calculator">
-            <p>JavaScript Calculator</p>
+            <p class="none-hover">JavaScript Calculator</p>
+            <p class="hover"><strong><</strong>JavaScript Calculator<strong>/></strong></p>
           </a>
 
           <a href="">
             <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" alt="Map Data Across the Globe">
-            <p>Map Data Across the Globe</p>
+            <p class="none-hover">Map Data Across the Globe</p>
+            <p class="hover"><strong><</strong>Map Data Across the Globe<strong>/></strong></p>
           </a>
 
           <a href="">
             <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png" alt="Wikipedia Viewer">
-            <p>Wikipedia Viewer</p>
+            <p class="none-hover">Wikipedia Viewer</p>
+            <p class="hover"><strong><</strong>Wikipedia Viewer<strong>/></strong></p>
           </a>
 
           <a href="">
             <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png" alt="Tic Tac Toe Game">
-            <p>Tic Tac Toe Game</p>
+            <p class="none-hover">Tic Tac Toe Game</p>
+            <p class="hover"><strong><</strong>Tic Tac Toe Game<strong>/></strong></p>
           </a>
 
         </div>
         <nav id="show-all">
-          <a href="">Show all ></a>
+          <a href="">Show all <strong>></strong></a>
         </nav>
       </div>
   
       <div id="grid-contact">
-  
+        <h2>Let's work together...</h2>
+        <p>How do you take your coffee?</p>
+        <div id="button">
+            <div class="button-hover">
+              <a href="">
+                <i class="fa-brands fa-facebook-square"></i>Facebook
+              </a>
+            </div>
+          
+            <div class="button-hover">
+              <a href="">
+                <i class="fa-brands fa-github"></i>GitHub
+              </a>
+            </div>
+
+            <div class="button-hover">
+              <a href="">
+                <i class="fa-brands fa-twitter"></i>Twitter
+              </a>
+            </div>
+
+            <div class="button-hover">
+              <a href="">
+                <i class="fa-solid fa-at"></i>Send a mail
+              </a>
+            </div>
+
+            <div class="button-hover">
+              <a href="">
+                <i class="fa-solid fa-mobile-screen"></i>Call me
+              </a>
+            </div>
+        </div>
       </div>
     </div>
+    <footer>
+      <div id="descreptions">
+        <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+      </div>
+      <div id="right">
+        <p>
+          <i class="fa-regular fa-copyright"></i> Created for freeCodeCamp <i class="fa-brands fa-free-code-camp"></i>
+        </p>
+      </div>
+    </footer>
 </body>
 </html>
